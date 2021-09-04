@@ -1,0 +1,19 @@
+.table-list {
+  width: 100%;
+  border-collapse: collapse;
+
+  tr {
+    border-bottom: .5px solid #E0E0E0;
+  }
+
+  td {
+    padding: 14px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    color: #6F6F6F;
+    &:first-child {
+      font-weight: 600;
+    }
+  }
+}

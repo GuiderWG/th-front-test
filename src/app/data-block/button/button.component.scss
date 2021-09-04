@@ -1,0 +1,29 @@
+.btn {
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.16px;
+  color: #0F62FE;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+::ng-deep {
+  .btn__icon {
+    width: 17px;
+    height: 17px;
+    svg {
+      width: 17px;
+      height: 17px;
+      fill: #0F62FE;
+      overflow: visible;
+    }
+  }
+}
+
