@@ -19,19 +19,19 @@
   margin-left: -15px;
 
   &__title {
-    font-weight: bold;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    font-weight: 600;
     font-size: 18px;
     line-height: 24px;
     color: #161616;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
     padding-right: 15px;
     padding-left: 15px;
   }
 
   &__buttons {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
     display: flex;
     justify-content: flex-end;
     padding-right: 15px;
